@@ -1,0 +1,200 @@
+/* ---------------------------------- HEADER ---------------------------------- */
+
+.header-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+.header-portfolio .header-nav-home {
+    background: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    border-radius: 50px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+.header-portfolio .link {
+    align-items: center;
+    padding: 4px;
+}
+.header-portfolio .header-nav-link-home {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+     
+}
+.header-portfolio .header-nav-link-home:hover {
+    color: #777;
+}
+
+.header-portfolio .fas {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 24px;
+}
+.header-portfolio .select-portfolio {
+    width: 60px;
+    font-size: 16px;
+    color: #fff;
+    padding: 4px;
+    margin: 10px 10px 0 5px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    height: 30px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='white'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+    background-size: 12px;
+    background-position: calc(100% - 10px) center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+  
+.header-portfolio .select-portfolio:hover {
+    color: #777;
+}
+
+/* ---------------------------------- MAIN-PORTFOLIO ---------------------------------- */
+
+.main-portfolio {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-portfolio h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .main-portfolio .portfolio-content {
+    max-width: 1200px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 20px auto;
+    padding: 0 25px;
+  }
+  
+  .main-portfolio .portfolio-item {
+    width: 32%;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 20px 0;
+    -webkit-box-shadow: 0px 10px 20px -10px #333333;
+    box-shadow: 0px 10px 20px -10px #333333;
+  }
+  
+  .main-portfolio .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .main-portfolio .gallery-text {
+    padding: 0px 15px 10px;
+    text-align: center;
+  }
+  
+  .main-portfolio .flex {
+    display: block;
+    height: auto;
+  }
+  
+  .main-portfolio .flex-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #555;
+  }
+  
+  .main-portfolio .flex-main p {
+    padding: 4px 0 0 0;
+  }
+  
+  .main-portfolio .gallery-text-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0;
+  }
+  .main-portfolio .gallery-text-info div {
+    padding: 4px 0;
+  }
+  
+  .main-portfolio .gallery-text-info span {
+    padding: 5px;
+    margin: 0 5px 0 0;
+    background-color: #555;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  .main-portfolio .gallety-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .main-portfolio .but {
+    width: 100%;
+  }
+  
+  .main-portfolio .visit {
+    padding-left: 5px;
+  }
+  
+  .main-portfolio .gallery-button {
+    width: 50%;
+    -webkit-box-shadow: inset -1px 0px 0px -20px #ffffff;
+            box-shadow: inset -1px 0px 0px -20px #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f9f9f9), to(#e9e9e9));
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    color: #777;
+    font-size: 16px;
+    padding: 7px 17px;
+    text-decoration: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 15px auto 0;
+  }
+  
+  .main-portfolio .gallery-button:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #e9e9e9), to(#f9f9f9));
+    background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+    background-color: #e9e9e9;
+  }
+  
+  .main-portfolio .gallery-button:active {
+    position: relative;
+    top: 1px;
+  }

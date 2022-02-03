@@ -1,0 +1,28 @@
+@media print {
+    .header {
+        display: none;    
+    }
+    .intro {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .cv {
+        display: none;
+    }
+    .portfolio {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }   
+    footer {
+        display: none;
+    }
+    #cv-section {
+        display: block;
+    }
+    
+
+}
