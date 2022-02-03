@@ -1,14 +1,66 @@
-<?php
-/*
-Template Name: Main
-*/
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Anton_Melnychuk</title>
 
-<?php get_header(); ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/styles/responsive.css">
+    <link rel="stylesheet" href="/assets/styles/print.css">
+    <link rel="stylesheet" href="/assets/styles/cv.css">
 
+
+    
+</head>
+<body>
+
+<!-- Header --> 
+
+<header class="header">
+
+    <ul class="header-nav">
+        <li><a class="header-nav-link lang-home" href="#home">Home</a></li>
+        <li><a class="header-nav-link lang-about" href="#about">About</a></li>
+        <li><a class="header-nav-link lang-cv" href="#cv">My CV</a></li>
+        <li><a class="header-nav-link lang-portfolio" href="#portfolio">Portfolio</a></li>
+        <li><a class="header-nav-link lang-contact" href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="container-lang">
+        <i class="fas fa-globe"></i>
+        <select class="change-lang" name="change-lang">
+            <option value="en" selected>EN</option>
+            <option value="pl">PL</option>
+            <option value="ua">UA</option>
+            <option value="ru">RU</option>
+        </select>
+    </div>
+    
+    <div class="burger-menu">
+        <a href="" class="burger-menu_button">
+          <span class="burger-menu_lines"></span>
+        </a>
+        <nav class="burger-menu_nav">
+            <a class="burger-menu_link lang-home-burger" href="#home">Home</a>
+            <a class="burger-menu_link lang-about-burger" href="#about">About</a>
+            <a class="burger-menu_link lang-cv-burger" href="#cv">My CV</a>
+            <a class="burger-menu_link lang-portfolio-burger" href="#portfolio">Portfolio</a>
+            <a class="burger-menu_link lang-contact-burger" href="#contact">Contact</a>
+        </nav>
+        <div class="burger-menu_overlay"></div>
+    </div>
+
+</header>
+    
 <!-- Intro -->
 
-<div class="intro" id="home" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/intro_code.jpg);">
+<div class="intro" id="home" style="background-image: url(assets/img/intro_code.jpg);">
     <div class="briefly-about-me">
         <p class="lang-who-i-am1">Hello, I'm Anton Melnychuk.</p> 
         <p class="lang-who-i-am2">I'm a front-end web developer.</p>
@@ -25,7 +77,7 @@ Template Name: Main
     <div class="about-container">
         <div class="cv-photo-container">
             <div class="cv-photo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_photo.jpeg" alt="my_photo">
+                <img src="assets/img/cv_photo.jpeg" alt="my_photo">
             </div>
         </div>
     
@@ -78,7 +130,7 @@ Template Name: Main
 
 <!-- CV -->
 
-<div class="cv" id="cv" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bgr.jpg);">
+<div class="cv" id="cv" style="background-image: url(assets/img/bgr.jpg);">
 
     <div class="title-cv-block">
         <div class="cv-title">
@@ -204,7 +256,7 @@ Template Name: Main
          <!--Sidebar section-->
         <aside class="sidebar-section">
 
-            <img class="cv-print-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/cv_photo.jpeg" width="300" height="460" alt="my-photo">
+            <img class="cv-print-img" src="assets/img/cv_photo.jpeg" width="300" height="460" alt="my-photo">
 
             <!--Contacts section-->
             <div class="contacts-section">
@@ -442,7 +494,7 @@ Template Name: Main
             <div class="gallery-list swiper-wrapper">
 
                 <div class="gallery-item swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/www.max-car.com.ua.jpg" alt="img">
+                    <img src="/assets/img/www.max-car.com.ua.jpg" alt="img">
                     <div class="gallery-text">
                         <div class="flex">
                             <div class="flex-main">
@@ -461,7 +513,7 @@ Template Name: Main
                 </div>
 
                 <div class="gallery-item swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/react-note-app.png" alt="img">
+                    <img src="assets/img/react-note-app.png" alt="img">
                     <div class="gallery-text">
                         <div class="flex">
                             <div class="flex-main">
@@ -481,7 +533,7 @@ Template Name: Main
                 </div>
 
                 <div class="gallery-item swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/react-site.png" alt="img">
+                    <img src="assets/img/react-site.png" alt="img">
                     <div class="gallery-text">
                         <div class="flex">
                             <div class="flex-main">
@@ -499,7 +551,7 @@ Template Name: Main
                 </div>
 
                 <div class="gallery-item swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Guitar-Shop.png" alt="img">
+                    <img src="assets/img/Guitar-Shop.png" alt="img">
                     <div class="gallery-text">
                         <div class="flex">
                             <div class="flex-main">
@@ -520,7 +572,7 @@ Template Name: Main
             </div>
         </div>
         
-        <a href="<?php echo get_site_url() . '/portfolio'; ?>" class="button-portfolio lang-button-portfolio" target="_blank">Open portfolio</a>
+        <a href="/portfolio.html" class="button-portfolio lang-button-portfolio" target="_blank">Open portfolio</a>
 
     </div>
 </div>
@@ -590,4 +642,11 @@ Template Name: Main
 </div>
 
 
-<?php get_footer(); ?>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/assets/js/lang.js"></script>
+    <script src="/assets/js/app.js"></script>
+    
+</body>
+</html>

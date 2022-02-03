@@ -1,24 +1,18 @@
-<?php
-/*
-Template Name: Portfolio
-*/
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     
-    <meta property="og:image" content="./assets/img/about.png" >
+    <title>Portfolio_Anton_Melnychuk</title>
 
-    <title>All_Projects_Anton_Melnychuk</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/portfolio.css">
+    <link rel="stylesheet" href="/assets/styles/responsive.css">
 
-
-    <?php wp_head(); ?>
     
 </head>
 <body>
@@ -48,11 +42,11 @@ Template Name: Portfolio
     <div class="portfolio-content">
 
         <div class="portfolio-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/www.max-car.com.ua.jpg" alt="img">
+            <img src="assets/img/www.max-car.com.ua.jpg" alt="img">
             <div class="gallery-text">
                 <div class="flex">
                     <div class="flex-main">
-                        <h3 class="gallety-title lang-gallery-title ">Car sales site</h3>
+                        <h3 class="gallety-title lang-gallery-title ">Car dealer</h3>
                         <p>2021</p>
                     </div>
                     <div class="gallery-text-info">
@@ -70,7 +64,7 @@ Template Name: Portfolio
         </div>
     
         <div class="portfolio-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/react-note-app.png" alt="img">
+            <img src="assets/img/react-note-app.png" alt="img">
             <div class="gallery-text">
                 <div class="flex">
                     <div class="flex-main">
@@ -91,7 +85,7 @@ Template Name: Portfolio
         </div>
 
         <div class="portfolio-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/react-site.png" alt="img">
+            <img src="assets/img/react-site.png" alt="img">
             <div class="gallery-text">
                 <div class="flex">
                     <div class="flex-main">
@@ -111,7 +105,7 @@ Template Name: Portfolio
         </div>
 
         <div class="portfolio-item">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Guitar-Shop.png" alt="img">
+            <img src="assets/img/Guitar-Shop.png" alt="img">
             <div class="gallery-text">
                 <div class="flex">
                     <div class="flex-main">
@@ -148,7 +142,12 @@ Template Name: Portfolio
     </div>
 </footer>
 
-<?php wp_footer(); ?>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/assets/js/lang.js"></script>
+    <script src="/assets/js/app.js"></script>
+    
 </body>
 </html>

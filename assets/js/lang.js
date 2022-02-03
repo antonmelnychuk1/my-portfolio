@@ -326,7 +326,7 @@ const langArr = {
     // https://www.max-car.com.ua/
 
     "gallery-title" :  {
-        "en": "Car sales site",
+        "en": "Car dealer",
         "pl": "Witryna sprzedaży samochodów",
         "ua": "Сайт з продажу автомобілів",
         "ru": "Сайт по продаже автомобилей",
